@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from sys import argv
 
 script, filename = argv # get script name and file name
@@ -12,3 +14,6 @@ file_again = input("> ")
 
 txt_again = open(file_again)
 print(txt_again.read())
+
+txt.close()
+txt_again.close()
